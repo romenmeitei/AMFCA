@@ -1,0 +1,52 @@
+[
+  {
+    "path": "workflows/frozen_lhende_2026/01_core_gee_lhende_2026.py",
+    "bytes": 122503,
+    "sha256": "19fcc76bfaf36b4c8f20934098a5295e21c45debd01a8df37f22c96431cf942d"
+  },
+  {
+    "path": "workflows/frozen_lhende_2026/02_m01_concurrence_quantification.py",
+    "bytes": 26937,
+    "sha256": "064cac42d72e4ef83616c6e596d906a834866489f11c338c619e1183b00eb0d0"
+  },
+  {
+    "path": "workflows/frozen_lhende_2026/03_m01_background_comparison.py",
+    "bytes": 19918,
+    "sha256": "662af6f18e3eefb4244cb0cd84baae2968fb0a0346a273762b76e15f79cb0e1a"
+  },
+  {
+    "path": "workflows/frozen_lhende_2026/04_candidate_patch_inventory.py",
+    "bytes": 39660,
+    "sha256": "79842652563c93e86026850239ebccd7e3d52291ea29ba66b9148a91d98cb108"
+  },
+  {
+    "path": "workflows/frozen_lhende_2026/05_recover_s2_composites.py",
+    "bytes": 36569,
+    "sha256": "1ccc7f072200dc27ac05f04fcecde0beb30d57a8326c3f19eaaf9cc11d87922d"
+  },
+  {
+    "path": "workflows/frozen_lhende_2026/06_patch_directional_characterization.py",
+    "bytes": 46692,
+    "sha256": "79f83d0dd5682aefeef2b21a5c11d927958bc01701148baac15685774af7ef6f"
+  },
+  {
+    "path": "workflows/frozen_lhende_2026/07_dated_scene_audit.py",
+    "bytes": 72269,
+    "sha256": "853721d143814f371b2e218cd9d2738c61cbc1a2aedb2f47b1d220ca9da5cfe1"
+  },
+  {
+    "path": "workflows/frozen_lhende_2026/08_scene_inventory_reconciliation.py",
+    "bytes": 18654,
+    "sha256": "8b10f7acae9d620b6e340ff1df2bfd5cb188310f67aacbf7b97480f7ac6ccfa8"
+  },
+  {
+    "path": "workflows/frozen_lhende_2026/09_top20_patch_review.py",
+    "bytes": 42707,
+    "sha256": "8f6c190c3992bb0b9ea6c989077567a19fb09948a952f59e6dfdc5a82c6e5779"
+  },
+  {
+    "path": "workflows/frozen_lhende_2026/10_external_corroboration.py",
+    "bytes": 46846,
+    "sha256": "24494df6d60ab3e4e5aa9a6654400ba8e0546b057cb5081d7e49c368128cc6f5"
+  }
+]

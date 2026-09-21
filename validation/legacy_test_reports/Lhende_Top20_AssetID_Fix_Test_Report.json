@@ -1,0 +1,53 @@
+{
+  "tests": [
+    {
+      "test": "bare valid",
+      "expected_success": true,
+      "actual_success": true,
+      "result": "COPERNICUS/S2_SR_HARMONIZED/20260827T045659_20260827T051017_T45RUL",
+      "error": null,
+      "pass": true
+    },
+    {
+      "test": "full valid",
+      "expected_success": true,
+      "actual_success": true,
+      "result": "COPERNICUS/S2_SR_HARMONIZED/20260827T045659_20260827T051017_T45RUL",
+      "error": null,
+      "pass": true
+    },
+    {
+      "test": "none valid",
+      "expected_success": true,
+      "actual_success": true,
+      "result": "COPERNICUS/S2_SR_HARMONIZED/20260827T045659_20260827T051017_T45RUL",
+      "error": null,
+      "pass": true
+    },
+    {
+      "test": "wrong bare",
+      "expected_success": false,
+      "actual_success": false,
+      "result": null,
+      "error": "RuntimeError: Bare Earth Engine element ID 'B' conflicts with system:index 'A'.",
+      "pass": true
+    },
+    {
+      "test": "wrong full",
+      "expected_success": false,
+      "actual_success": false,
+      "result": null,
+      "error": "RuntimeError: Earth Engine asset ID 'COPERNICUS/S2_SR_HARMONIZED/B' conflicts with system:index 'A'.",
+      "pass": true
+    },
+    {
+      "test": "wrong collection",
+      "expected_success": false,
+      "actual_success": false,
+      "result": null,
+      "error": "RuntimeError: Asset 'OTHER/COL/A' was not returned from the expected collection 'COPERNICUS/S2_SR_HARMONIZED'.",
+      "pass": true
+    }
+  ],
+  "static_checks": "PASS"
+}

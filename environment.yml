@@ -1,0 +1,21 @@
+name: amfca
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - rasterio
+  - scipy
+  - shapely
+  - pyproj
+  - pyyaml
+  - requests
+  - matplotlib
+  - pillow
+  - openpyxl
+  - pytest
+  - pip
+  - pip:
+      - earthengine-api
+      - geemap

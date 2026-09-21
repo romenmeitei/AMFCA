@@ -1,0 +1,43 @@
+{
+  "script_sha256": "24494df6d60ab3e4e5aa9a6654400ba8e0546b057cb5081d7e49c368128cc6f5",
+  "tests": [
+    {
+      "test": "script compiles",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "activation code top-level",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "activation code nested AOI",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "SRID WKT normalization",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "four publication figures PNG+PDF",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "automatic priority selection = five supported patches",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "CEMS mocked mapped-vector intersection",
+      "status": "PASS",
+      "detail": ""
+    }
+  ],
+  "pass_count": 7,
+  "fail_count": 0,
+  "note": "Offline tests only; live CEMS API and Earth Engine/Landsat queries require Colab internet/authentication."
+}

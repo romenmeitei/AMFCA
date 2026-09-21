@@ -1,0 +1,57 @@
+{
+  "scope": "Offline synthetic tests; no user files or Earth Engine calls executed.",
+  "results": [
+    {
+      "test": "canonical",
+      "status": "PASS"
+    },
+    {
+      "test": "merge_prefix",
+      "status": "PASS"
+    },
+    {
+      "test": "known_path",
+      "status": "PASS"
+    },
+    {
+      "test": "whitespace",
+      "status": "PASS"
+    },
+    {
+      "test": "unknown_prefix",
+      "status": "PASS"
+    },
+    {
+      "test": "wrong_collection",
+      "status": "PASS"
+    },
+    {
+      "test": "do_not_parse_product_id",
+      "status": "PASS"
+    },
+    {
+      "test": "invalid_tile",
+      "status": "PASS"
+    },
+    {
+      "test": "447_pixel_disjoint_union_ID_reconciliation",
+      "status": "PASS"
+    },
+    {
+      "test": "overlapping_PRE_sets_not_double_counted",
+      "status": "PASS"
+    },
+    {
+      "test": "wrong_tile_not_force_matched",
+      "status": "PASS"
+    },
+    {
+      "test": "checksum_change_rejected",
+      "status": "PASS"
+    },
+    {
+      "test": "half_pixel_grid_shift_rejected",
+      "status": "PASS"
+    }
+  ]
+}

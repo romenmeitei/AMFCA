@@ -1,0 +1,77 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:32645"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "UPPER"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              500000,
+              3099940
+            ],
+            [
+              500120,
+              3099940
+            ],
+            [
+              500120,
+              3100000
+            ],
+            [
+              500000,
+              3100000
+            ],
+            [
+              500000,
+              3099940
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "LOWER"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              500000,
+              3099880
+            ],
+            [
+              500120,
+              3099880
+            ],
+            [
+              500120,
+              3099940
+            ],
+            [
+              500000,
+              3099940
+            ],
+            [
+              500000,
+              3099880
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

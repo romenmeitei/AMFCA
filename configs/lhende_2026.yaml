@@ -1,0 +1,60 @@
+project:
+  study_id: lhende_bhotekoshi_2026
+  profile: lhende_exact
+  event_time_utc: "2026-08-26T02:52:10Z"
+  ee_project: "woven-name-441217-g5"
+  analysis_crs: "EPSG:32645"
+
+inputs:
+  sar_control_pattern: "/content/drive/MyDrive/Lhende_2026_Channel_Audit/sar_spatial_20260909T104846220104Z/S01_sar_control_pattern.tif"
+  spectral_rms: "/content/drive/MyDrive/Lhende_2026_GEE_Exports/R03_optical_change_metrics_RETRY.tif"
+  zones: "/content/drive/MyDrive/Lhende_2026_Channel_Audit/sar_spatial_20260909T104846220104Z/river_reference_buffers_500m.geojson"
+  qgis_m01: ""
+  gee_export_dir: "/content/drive/MyDrive/Lhende_2026_GEE_Exports"
+  original_gee_audit_dir: "/content/drive/MyDrive/Lhende_2026_GEE_Audit"
+  existing_m01_audit_dir: ""
+  existing_patch_dir: ""
+  existing_s2_recovery_dir: ""
+  existing_dated_scene_audit_dir: ""
+  existing_top20_dir: ""
+
+outputs:
+  save_to_drive: true
+  local_concurrence_root: "/content/Lhende_2026_concurrence"
+  local_background_root: "/content/Lhende_2026_M01_Background"
+  local_patch_root: "/content/Lhende_2026_Candidate_Patches"
+  drive_patch_root: "/content/drive/MyDrive/Lhende_2026_Candidate_Patches"
+  drive_s2_recovery_root: "/content/drive/MyDrive/Lhende_2026_S2_Review"
+  drive_top20_root: "/content/drive/MyDrive/Lhende_2026_Top20_Patch_Review"
+  drive_external_root: "/content/drive/MyDrive/Lhende_2026_External_Corroboration"
+  state_file: "/content/drive/MyDrive/Lhende_2026_AMFCA_pipeline_state.json"
+  run_root: "/content/drive/MyDrive/Lhende_2026_AMFCA_generic"
+
+analysis:
+  analysis_scale_m: 20
+  primary_rms_threshold: 0.08
+  rms_thresholds: [0.06, 0.08, 0.10]
+  connectivity: 4
+  zone_field: "zone_id"
+  review_n: 10
+  top_n_per_reach: 10
+  directional_patch_id: "R05_P0001"
+  dated_scene_review_end_exclusive_utc: "2026-09-11T11:19:48.544620Z"
+
+# These overrides create a configured COPY of the frozen core GEE script.
+# The frozen script itself is never edited.
+core_gee_overrides:
+  EE_PROJECT: "woven-name-441217-g5"
+  EVENT_TIME_UTC: "2026-08-26T02:52:10Z"
+  S2_PRIMARY_PRE_START: "2026-08-22"
+  S2_FALLBACK_PRE_START: "2026-08-10"
+  S2_FALLBACK_PRE_END: "2026-08-16"
+  S2_POST_END: "2026-09-02"
+  S1_PRE_START: "2026-07-20"
+  S1_POST_END: "2026-09-02"
+  OUTPUT_CRS: "EPSG:32645"
+  ANALYSIS_SCALE_M: 20
+  SPECTRAL_RMS_THRESHOLD: 0.08
+  SAR_CHANGE_DB_THRESHOLD: 2.5
+  START_DRIVE_EXPORTS: false
+  MOUNT_GOOGLE_DRIVE: true

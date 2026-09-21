@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "compileall": "PASS",
+  "pytest": "PASS",
+  "pytest_summary": "....                                                                     [100%]\n4 passed in 0.57s",
+  "generic_example_run": "PASS",
+  "repository_verifier": "PASS",
+  "repository_verifier_output": "Required repository files        PASS \nLhende config                    PASS \nGeneric template config          PASS \nFrozen workflow syntax           PASS 10 scripts\nFrozen workflow checksums        PASS 10 files\nOffline pytest suite             PASS 4 passed in 0.72s\n\nOVERALL: PASS",
+  "frozen_scripts": 10,
+  "archived_notebooks": 9,
+  "notes": [
+    "Live Earth Engine/CEMS network stages were not executed in this offline validation environment.",
+    "The preserved legacy reports document prior synthetic tests of the original workflows."
+  ]
+}

@@ -1,0 +1,22 @@
+test,status,details
+syntax_import,PASS,Synthetic/offline test; no live Earth Engine access.
+exact_447_pixel_hash_reproduction,PASS,Synthetic/offline test; no live Earth Engine access.
+future_end_is_capped_at_execution_time,PASS,Synthetic/offline test; no live Earth Engine access.
+end_exclusive_time_phase,PASS,Synthetic/offline test; no live Earth Engine access.
+strict_QA_keeps_real_nonvegetated_class5,PASS,Synthetic/offline test; no live Earth Engine access.
+missing_CSplus_never_becomes_primary_clear,PASS,Synthetic/offline test; no live Earth Engine access.
+separate_QA_modes_do_not_quietly_share_CP_gate,PASS,Synthetic/offline test; no live Earth Engine access.
+cloud_shadow_adjacency_exclusion,PASS,Synthetic/offline test; no live Earth Engine access.
+high_solar_zenith_is_not_quantitatively_qualified,PASS,Synthetic/offline test; no live Earth Engine access.
+two_post_dates_fixed_panel_repeat_decline,PASS,Synthetic/offline test; no live Earth Engine access.
+one_post_not_persistence,PASS,Synthetic/offline test; no live Earth Engine access.
+rebound_preserved_as_mixed_trajectory,PASS,Synthetic/offline test; no live Earth Engine access.
+changing_coverage_cannot_fake_fixed_panel,PASS,Synthetic/offline test; no live Earth Engine access.
+same_date_duplicate_not_an_extra_observation,PASS,Synthetic/offline test; no live Earth Engine access.
+different_track_not_paired_silently,PASS,Synthetic/offline test; no live Earth Engine access.
+indices_physical_denominators_and_correct_signs,PASS,Synthetic/offline test; no live Earth Engine access.
+modified_source_checksum_rejected,PASS,Synthetic/offline test; no live Earth Engine access.
+later_date_not_claimed_as_original_composite_source,PASS,Synthetic/offline test; no live Earth Engine access.
+missing_NIR_not_converted_to_stable_zero,PASS,Synthetic/offline test; no live Earth Engine access.
+full_offline_pipeline_and_output_checksums,PASS,Synthetic/offline test; no live Earth Engine access.
+all_scene_download_failures_are_not_clear_stable_dates,PASS,Synthetic/offline test; no live Earth Engine access.

@@ -1,0 +1,11 @@
+test,status,note
+primary_and_sensitivity_area_conservation_pixel_roundtrip_flags_and_GPKG,PASS,1524 4n patches; 1161 8n clusters; synthetic only
+deterministic_ids_and_membership_hashes_on_repeat,PASS,
+all_empty_candidate_raster,PASS,
+empty_single_reach,PASS,
+all_512_three_by_three_binary_patterns_both_connectivities,PASS,
+checksum_corruption,PASS,Size mismatch: river_reference_buffers_500m_used.geojson
+half_pixel_shift_rejected,PASS,M01 and M02 must have exactly the same extent and grid.
+candidate_in_optical_gap_rejected,PASS,M01 valid support does not match M02 jointly observed pixels.
+changed_reference_pixel_counts_rejected,PASS,R05: M01 pixel count changed.
+raster_edge_patch_retained_and_flagged,PASS,

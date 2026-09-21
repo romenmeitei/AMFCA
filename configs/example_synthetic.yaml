@@ -1,0 +1,19 @@
+project:
+  study_id: synthetic_example
+  profile: generic
+  event_time_utc: "2026-08-26T02:52:10Z"
+  ee_project: "not_used_in_generic_mode"
+  analysis_crs: "EPSG:32645"
+inputs:
+  sar_control_pattern: "data/example/sar_control_pattern.tif"
+  spectral_rms: "data/example/spectral_rms.tif"
+  zones: "data/example/zones.geojson"
+outputs:
+  save_to_drive: false
+  run_root: "/tmp/amfca_example_output"
+analysis:
+  analysis_scale_m: 20
+  primary_rms_threshold: 0.08
+  rms_thresholds: [0.06, 0.08, 0.10]
+  connectivity: 4
+  zone_field: "zone_id"

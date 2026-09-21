@@ -1,0 +1,24 @@
+project:
+  study_id: replace_with_study_id
+  profile: generic
+  event_time_utc: "2027-01-01T00:00:00Z"
+  ee_project: "YOUR_EARTH_ENGINE_PROJECT"
+  analysis_crs: "EPSG:32645"
+
+# Generic mode begins from three standardized, co-registered inputs.
+# It intentionally refuses silent reprojection/resampling.
+inputs:
+  sar_control_pattern: "/path/to/sar_control_pattern.tif"
+  spectral_rms: "/path/to/spectral_rms.tif"
+  zones: "/path/to/zones.geojson"
+
+outputs:
+  save_to_drive: false
+  run_root: "/content/amfca_new_event"
+
+analysis:
+  analysis_scale_m: 20
+  primary_rms_threshold: 0.08
+  rms_thresholds: [0.06, 0.08, 0.10]
+  connectivity: 4
+  zone_field: "zone_id"
