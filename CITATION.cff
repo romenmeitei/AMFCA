@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use AMFCA, please cite the associated manuscript and software release."
+title: "AMFCA: Auditable Multisensor Flood Change Assessment"
+type: software
+version: 1.0.0
+date-released: 2026-09-21
+authors:
+  - family-names: "Lourembam"
+    given-names: "Romen"
+repository-code: "https://github.com/romenmeitei/AMFCA"

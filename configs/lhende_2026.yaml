@@ -2,7 +2,7 @@ project:
   study_id: lhende_bhotekoshi_2026
   profile: lhende_exact
   event_time_utc: "2026-08-26T02:52:10Z"
-  ee_project: "woven-name-441217-g5"
+  ee_project: ""
   analysis_crs: "EPSG:32645"
 
 inputs:
@@ -44,7 +44,7 @@ analysis:
 # These overrides create a configured COPY of the frozen core GEE script.
 # The frozen script itself is never edited.
 core_gee_overrides:
-  EE_PROJECT: "woven-name-441217-g5"
+  EE_PROJECT: ""
   EVENT_TIME_UTC: "2026-08-26T02:52:10Z"
   S2_PRIMARY_PRE_START: "2026-08-22"
   S2_FALLBACK_PRE_START: "2026-08-10"
